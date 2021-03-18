@@ -42,17 +42,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestOffByN.testEqualChars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proj1b" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,6 +99,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616055697536</updated>
       <workItem from="1616055698769" duration="18518000" />
+      <workItem from="1616079675216" duration="603000" />
+      <workItem from="1616082463725" duration="606000" />
     </task>
     <servers />
   </component>
@@ -126,5 +117,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
