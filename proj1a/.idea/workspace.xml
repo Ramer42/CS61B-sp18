@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proj1b" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lectureCode-sp18-master/syntax3/objectMethods/objectMethods" />
   </component>
   <component name="RunManager" selected="Application.ArrayDeque">
     <configuration name="ArrayDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -52,13 +52,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,8 +68,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ArrayDeque" />
-        <item itemvalue="Application.LinkedListDequeTest" />
         <item itemvalue="Application.LinkedListDeque" />
+        <item itemvalue="Application.LinkedListDequeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +86,9 @@
       <workItem from="1615999574126" duration="614000" />
       <workItem from="1616033190777" duration="3564000" />
       <workItem from="1616252959932" duration="631000" />
+      <workItem from="1616857238247" duration="598000" />
+      <workItem from="1632714288157" duration="7036000" />
+      <workItem from="1632791569404" duration="959000" />
     </task>
     <servers />
   </component>
@@ -101,5 +106,21 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedListDeque.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ArrayDeque.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

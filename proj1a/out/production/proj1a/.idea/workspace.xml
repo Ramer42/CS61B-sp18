@@ -28,9 +28,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lectureCode-sp18-master/lists3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lectureCode-sp18-master/syntax3/objectMethods/objectMethods" />
   </component>
-  <component name="RunManager" selected="Application.ArrayDeque">
+  <component name="RunManager" selected="Application.LinkedListDeque">
     <configuration name="ArrayDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayDeque" />
       <module name="proj1a" />
@@ -67,9 +67,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListDeque" />
         <item itemvalue="Application.ArrayDeque" />
         <item itemvalue="Application.LinkedListDequeTest" />
-        <item itemvalue="Application.LinkedListDeque" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +82,12 @@
       <option name="presentableId" value="Default" />
       <updated>1615184481974</updated>
       <workItem from="1615184483437" duration="15602000" />
-      <workItem from="1615256458598" duration="11112000" />
+      <workItem from="1615256458598" duration="18437000" />
+      <workItem from="1615999574126" duration="614000" />
+      <workItem from="1616033190777" duration="3564000" />
+      <workItem from="1616252959932" duration="631000" />
+      <workItem from="1616857238247" duration="598000" />
+      <workItem from="1632714288157" duration="7036000" />
     </task>
     <servers />
   </component>
@@ -100,5 +105,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedListDeque.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

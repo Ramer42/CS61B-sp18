@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b1f8225-eabf-4b91-935b-b3ba8efd8ab5" name="Default Changelist" comment="" />
+    <list default="true" id="5eafbfdb-daff-4b96-80eb-efd6499de137" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1pw0A4LGZ7NzvCNphuOPwYkqhCq" />
+  <component name="ProjectId" id="1qL8oGFHDE0Vy1zheICrznwUHP9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,63 +33,84 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.TestArrayDequeGold.testArray">
-    <configuration name="StudentArrayDequeLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentArrayDequeLauncher" />
-      <module name="proj1gold" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestGuitarString">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArrayRingBuffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synthesizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="synthesizer" />
+      <option name="MAIN_CLASS_NAME" value="synthesizer.TestArrayRingBuffer" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertEqualsStringDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj1gold" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertEqualsStringDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestArrayDequeGold.testArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj1gold" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestArrayDequeGold" />
-      <option name="METHOD_NAME" value="testArray" />
+    <configuration name="TestArrayRingBuffer.someTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synthesizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="synthesizer" />
+      <option name="MAIN_CLASS_NAME" value="synthesizer.TestArrayRingBuffer" />
+      <option name="METHOD_NAME" value="someTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGuitarString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synthesizer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="synthesizer" />
+      <option name="MAIN_CLASS_NAME" value="synthesizer.TestGuitarString" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestArrayDequeGold.testArray" />
-        <item itemvalue="JUnit.AssertEqualsStringDemo" />
-        <item itemvalue="Application.StudentArrayDequeLauncher" />
+        <item itemvalue="JUnit.TestGuitarString" />
+        <item itemvalue="JUnit.TestArrayRingBuffer.someTest" />
+        <item itemvalue="JUnit.TestArrayRingBuffer" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5b1f8225-eabf-4b91-935b-b3ba8efd8ab5" name="Default Changelist" comment="" />
-      <created>1616078699094</created>
+      <changelist id="5eafbfdb-daff-4b96-80eb-efd6499de137" name="Default Changelist" comment="" />
+      <created>1616847683341</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616078699094</updated>
-      <workItem from="1616078700633" duration="3536000" />
-      <workItem from="1616082477662" duration="2365000" />
-      <workItem from="1632729941992" duration="637000" />
+      <updated>1616847683341</updated>
+      <workItem from="1616847684983" duration="7783000" />
+      <workItem from="1616901804981" duration="3387000" />
     </task>
     <servers />
   </component>

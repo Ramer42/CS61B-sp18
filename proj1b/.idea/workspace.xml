@@ -34,10 +34,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.PalindromeFinder">
+  <component name="RunManager" selected="JUnit.TestPalindrome">
     <configuration name="PalindromeFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PalindromeFinder" />
       <module name="proj1b" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,10 +95,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromeFinder" />
-        <item itemvalue="JUnit.TestOffByN.testEqualChars" />
-        <item itemvalue="JUnit.TestOffByOne" />
         <item itemvalue="JUnit.TestPalindrome" />
+        <item itemvalue="JUnit.TestOffByN.testEqualChars" />
+        <item itemvalue="Application.PalindromeFinder" />
+        <item itemvalue="JUnit.TestOffByOne" />
         <item itemvalue="JUnit.TestPalindrome.testIsPalindrome" />
       </list>
     </recent_temporary>
@@ -102,6 +115,8 @@
       <workItem from="1616079675216" duration="603000" />
       <workItem from="1616082463725" duration="606000" />
       <workItem from="1616122465022" duration="343000" />
+      <workItem from="1632714096743" duration="4981000" />
+      <workItem from="1632736690055" duration="190000" />
     </task>
     <servers />
   </component>
