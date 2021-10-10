@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="646b05fc-04f5-44e9-a24e-004fc154b084" name="Default Changelist" comment="" />
+    <list default="true" id="9a50d8ba-9d2d-4407-8c95-49f2e0d2565c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1qKaSNeqwZw6Pc0ZsRiT9PHgHq6" />
+  <component name="ProjectId" id="1z84hkBrjPIPWMAWJOj5b19Ffhs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,18 +28,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../skeleton-sp18-master/library-sp18/javalib" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.worldGenerator_new_new">
-    <configuration name="HexWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byog.lab5.HexWorld" />
-      <module name="proj2" />
+  <component name="RunManager" selected="Application.HashTableVisualizer">
+    <configuration name="ComplexOomage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.ComplexOomage" />
+      <module name="hw3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="byog.lab5.*" />
+          <option name="PATTERN" value="hw3.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +47,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byog.lab5.MyDemo" />
-      <module name="proj2" />
+    <configuration name="HashTableVisualizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.HashTableVisualizer" />
+      <module name="hw3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="byog.lab5.*" />
+          <option name="PATTERN" value="hw3.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="worldGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byog.Core.worldGenerator" />
-      <module name="proj2" />
+    <configuration name="Hint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.Hint" />
+      <module name="hw3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="byog.Core.*" />
+          <option name="PATTERN" value="hw3.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,65 +73,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="worldGenerator_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byog.Core.worldGenerator_new" />
-      <module name="proj2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="byog.Core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="worldGenerator_new_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="byog.Core.worldGenerator_new_new" />
-      <module name="proj2" />
+    <configuration name="TestComplexOomage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="byog.Core.*" />
+          <option name="PATTERN" value="hw3.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="hw3.hash" />
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.TestComplexOomage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleOomage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw3.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hw3.hash" />
+      <option name="MAIN_CLASS_NAME" value="hw3.hash.TestSimpleOomage" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.worldGenerator_new_new" />
-        <item itemvalue="Application.worldGenerator" />
-        <item itemvalue="Application.MyDemo" />
-        <item itemvalue="Application.HexWorld" />
-        <item itemvalue="Application.worldGenerator_new" />
+        <item itemvalue="Application.HashTableVisualizer" />
+        <item itemvalue="JUnit.TestComplexOomage" />
+        <item itemvalue="Application.ComplexOomage" />
+        <item itemvalue="Application.Hint" />
+        <item itemvalue="JUnit.TestSimpleOomage" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="646b05fc-04f5-44e9-a24e-004fc154b084" name="Default Changelist" comment="" />
-      <created>1616830733858</created>
+      <changelist id="9a50d8ba-9d2d-4407-8c95-49f2e0d2565c" name="Default Changelist" comment="" />
+      <created>1633516501933</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616830733858</updated>
-      <workItem from="1616830735095" duration="10633000" />
-      <workItem from="1616914544122" duration="13553000" />
-      <workItem from="1616936032843" duration="8910000" />
-      <workItem from="1618909956218" duration="521000" />
-      <workItem from="1618910518620" duration="1843000" />
-      <workItem from="1618929162432" duration="4972000" />
-      <workItem from="1632211986095" duration="1657000" />
-      <workItem from="1632711064524" duration="2910000" />
-      <workItem from="1632791537439" duration="1251000" />
-      <workItem from="1632805880425" duration="4343000" />
-      <workItem from="1632824379498" duration="10289000" />
-      <workItem from="1632879850740" duration="7824000" />
-      <workItem from="1633249645362" duration="1812000" />
-      <workItem from="1633348740581" duration="1018000" />
-      <workItem from="1633419900135" duration="10000" />
+      <updated>1633516501933</updated>
+      <workItem from="1633516503186" duration="2312000" />
+      <workItem from="1633531151953" duration="2688000" />
+      <workItem from="1633576565418" duration="26247000" />
+      <workItem from="1633667099455" duration="448000" />
+      <workItem from="1633670200963" duration="3608000" />
     </task>
     <servers />
   </component>
