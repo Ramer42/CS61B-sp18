@@ -82,6 +82,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.InteractivePercolationVisualizer" />
       <item itemvalue="Application.Percolation" />
@@ -113,6 +124,7 @@
       <workItem from="1633764497465" duration="363000" />
       <workItem from="1633765886515" duration="6043000" />
       <workItem from="1633790719163" duration="612000" />
+      <workItem from="1633833577213" duration="724000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,10 @@ public class PercolationStats {
     private int T;
     private Percolation p1;
     private double[] threshold;
-    public PercolationStats(int N, int T, PercolationFactory pf){   // perform T independent experiments on an N-by-N grid
+    public PercolationStats(int N, int T, PercolationFactory pf) throws java.lang.IllegalArgumentException {   // perform T independent experiments on an N-by-N grid
+        if (N < 1){
+            throw new java.lang.IllegalArgumentException("Error:Time must be at least 1");
+        }
         this.N = N;
         this.T = T;
         threshold = new double[T];
