@@ -63,9 +63,10 @@ public class Solver {
      * to the solution. */
     public Iterable<WorldState> solution() {
         Stack<WorldState> stack = new Stack<>();
-        while (minSearchNode != null) {
-            stack.push(minSearchNode.worldState);
-            minSearchNode = minSearchNode.previousNode;
+        SearchNode thisSearchNode = minSearchNode;
+        while (thisSearchNode != null) {
+            stack.push(thisSearchNode.worldState);
+            thisSearchNode = thisSearchNode.previousNode;
         }
         return stack;
     }

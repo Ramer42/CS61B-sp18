@@ -13,6 +13,7 @@ public class Board implements WorldState{
             System.arraycopy(tiles[i], 0, this.tiles[i], 0, tiles.length);
         }
     }
+
     public int tileAt(int i, int j) {
         if (i > size() - 1 || i < 0 || j > size() - 1 || j < 0) {
             throw new java.lang.IndexOutOfBoundsException();
@@ -85,7 +86,10 @@ public class Board implements WorldState{
 
     @Override
     public int estimatedDistanceToGoal() { return manhattan(); }
+
     public boolean equals(Object y) {
+        if (y == this) return true;
+        if (y == null || y.getClass() != this.getClass()) return false;
         return Arrays.deepEquals(this.tiles, ((Board) y).tiles);
     }
 
@@ -103,5 +107,10 @@ public class Board implements WorldState{
         }
         s.append("\n");
         return s.toString();
+    }
+
+    @Override
+    public int hashCode() {
+        return 0;
     }
 }
