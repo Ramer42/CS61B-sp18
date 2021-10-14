@@ -57,7 +57,7 @@ public class Solver {
 
     /** Returns the minimum number of moves to solve the puzzle starting
      * at the initial WorldState. */
-    int moves() { return moves; }
+    public int moves() { return moves; }
 
     /** Returns a sequence of WorldStates from the initial WorldState
      * to the solution. */

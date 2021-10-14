@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.Queue;
 import java.util.Arrays;
 
 public class Board implements WorldState{
-    int[][] tiles;
+    private int[][] tiles;
 
     public Board(int[][] tiles) {
         //implement deep copy of input tiles
