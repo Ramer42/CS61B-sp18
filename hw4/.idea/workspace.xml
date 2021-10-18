@@ -28,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../skeleton-sp18-master/library-sp18/javalib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab11" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,17 +57,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,6 +135,9 @@
       <workItem from="1634109099375" duration="17737000" />
       <workItem from="1634180784590" duration="10648000" />
       <workItem from="1634193785346" duration="5683000" />
+      <workItem from="1634448585501" duration="1237000" />
+      <workItem from="1634477043215" duration="42000" />
+      <workItem from="1634521658286" duration="4901000" />
     </task>
     <servers />
   </component>

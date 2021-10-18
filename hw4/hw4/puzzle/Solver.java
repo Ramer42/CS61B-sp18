@@ -3,7 +3,6 @@ import edu.princeton.cs.algs4.MinPQ;
 import edu.princeton.cs.algs4.Stack;
 
 import java.util.Comparator;
-import java.util.Iterator;
 
 public class Solver {
     private class NodeComparator implements Comparator<SearchNode> {
