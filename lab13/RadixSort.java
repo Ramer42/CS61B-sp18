@@ -102,19 +102,11 @@ public class RadixSort {
     private static void sortHelperLSD(String[] asciis, int index) {
         // Optional LSD helper method for required LSD radix sort
         // make a new asciis in which pad every shorter strings with '_'
-        String[] asciisPadded = new String[asciis.length];
-        for (int i = 0; i < asciis.length; i += 1) {
-            if (asciis[i].length() < maxLength) {
-                asciisPadded[i] = pad(asciis[i], maxLength - asciis[i].length());
-            } else {
-                asciisPadded[i] = asciis[i];
-            }
-        }
 
         // gather all the counts for each value
         int[] counts = new int[257];
-        for (String i : asciisPadded) {
-            counts[i.charAt(index)]++;
+        for (String i : asciis) {
+            counts[getCharAsciiFromIndex(i, index)]++;
         }
 
         // calculate start position
@@ -127,26 +119,18 @@ public class RadixSort {
 
         String[] sorted = new String[asciis.length];
         for (int i = 0; i < asciis.length; i += 1) {
-            String item = asciisPadded[i];
-            int place = starts[item.charAt(index)];
-            sorted[place] = asciis[i];  // remember to use the original asciis without '_'
-            starts[item.charAt(index)] += 1;
+            String item = asciis[i];
+            int place = starts[getCharAsciiFromIndex(item, index)];
+            sorted[place] = asciis[i];
+            starts[getCharAsciiFromIndex(item, index)] += 1;
         }
         System.arraycopy(sorted, 0, asciis, 0, sorted.length);
     }
 
-    /**
-     * pad the string s with '_' at the back end,
-     * for example pad("2", 2) will return "2__"
-     * @param s the string to be padded
-     * @param numberOfPad the number of '_'
-     * @return padded string
-     */
-    private static String pad(String s, int numberOfPad) {
-        for (int i = 0; i < numberOfPad; i++) {
-            s += '_';
-        }
-        return s;
+    private static int getCharAsciiFromIndex(String s, int index) {
+        if (index < s.length()) {
+            return s.charAt(index) + 1;
+        } else { return 0; }
     }
 
 //    /**
