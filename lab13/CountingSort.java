@@ -67,27 +67,67 @@ public class CountingSort {
      */
     public static int[] betterCountingSort(int[] arr) {
         // TODO make counting sort work with arrays containing negative numbers.
-        // find min negative
+        // find min negative and max positive
         int minNegative = 0;
+        int maxPositive = 0;
         for (int i : arr) {
             if (i < 0) {
                 minNegative = Math.max(minNegative, Math.abs(i));
+            } else {
+                maxPositive = Math.max(maxPositive, i);
             }
         }
         minNegative = -minNegative;
 
-        // add min negative to the array to make every number positive
-        int[] arrCopy = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
-            arrCopy[i] = arr[i] - minNegative;
+        // gather all the counts for each value
+        int[] counts = new int[maxPositive - minNegative + 1];
+        for (int i : arr) {
+            counts[i - minNegative]++;
         }
 
-        arrCopy = naiveCountingSort(arrCopy);
-
-        // recover the sorted array by adding min negative
-        for (int i = 0; i < arr.length; i++) {
-            arrCopy[i] = arrCopy[i] + minNegative;
+        // start position calculation
+        int[] starts = new int[maxPositive - minNegative + 1];
+        int pos = 0;
+        for (int i = 0; i < starts.length; i += 1) {
+            starts[i] = pos;
+            pos += counts[i];
         }
-        return arrCopy;
+
+        int[] sorted = new int[arr.length];
+        for (int i = 0; i < arr.length; i += 1) {
+            int item = arr[i];
+            int place = starts[item - minNegative];
+            sorted[place] = item;
+            starts[item - minNegative] += 1;
+        }
+
+        // return the sorted array
+        return sorted;
     }
+
+//    public static int[] betterCountingSort(int[] arr) {
+//        // TODO make counting sort work with arrays containing negative numbers.
+//        // find min negative
+//        int minNegative = 0;
+//        for (int i : arr) {
+//            if (i < 0) {
+//                minNegative = Math.max(minNegative, Math.abs(i));
+//            }
+//        }
+//        minNegative = -minNegative;
+//
+//        // add min negative to the array to make every number positive
+//        int[] arrCopy = new int[arr.length];
+//        for (int i = 0; i < arr.length; i++) {
+//            arrCopy[i] = arr[i] - minNegative;
+//        }
+//
+//        arrCopy = naiveCountingSort(arrCopy);
+//
+//        // recover the sorted array by adding min negative
+//        for (int i = 0; i < arr.length; i++) {
+//            arrCopy[i] = arrCopy[i] + minNegative;
+//        }
+//        return arrCopy;
+//    }
 }

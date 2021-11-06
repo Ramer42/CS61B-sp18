@@ -11,6 +11,8 @@ public class RadixSortTester {
     private static String[] stringArrayExpected = {"a", "ab", "abc", "be", "gg", "interview", "melon", "s",
             "sdas", "sdsd", "was", "water"};
 
+    private static String[] stringArray2 = {"Y", " "};
+    private static String[] stringArrayExpected2 = {" ", "Y"};
     @Test
     public void testRadixSortLSD() {
         String[] sortedStringArray = RadixSort.sort(stringArray);
@@ -21,11 +23,21 @@ public class RadixSortTester {
     }
 
     @Test
-    public void testRadixSortMSD() {
-        String[] sortedStringArray2 = RadixSort.sortMSD(stringArray);
+    public void testRadixSortLSD2() {
+        String[] sortedStringArray2 = RadixSort.sort(stringArray2);
         for (String s : sortedStringArray2) {
             System.out.println(s);
         }
-        assertEquals(stringArrayExpected, sortedStringArray2);
+        System.out.println("Y " + "_");
+        assertEquals(stringArrayExpected2, sortedStringArray2);
     }
+
+//    @Test
+//    public void testRadixSortMSD() {
+//        String[] sortedStringArray2 = RadixSort.sortMSD(stringArray);
+//        for (String s : sortedStringArray2) {
+//            System.out.println(s);
+//        }
+//        assertEquals(stringArrayExpected, sortedStringArray2);
+//    }
 }
