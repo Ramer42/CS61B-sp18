@@ -85,7 +85,7 @@ public class CountingSort {
             counts[i - minNegative]++;
         }
 
-        // start position calculation
+        // calculate start position
         int[] starts = new int[maxPositive - minNegative + 1];
         int pos = 0;
         for (int i = 0; i < starts.length; i += 1) {

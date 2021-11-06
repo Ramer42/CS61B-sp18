@@ -25,19 +25,23 @@ public class RadixSortTester {
     @Test
     public void testRadixSortLSD2() {
         String[] sortedStringArray2 = RadixSort.sort(stringArray2);
-        for (String s : sortedStringArray2) {
-            System.out.println(s);
-        }
-        System.out.println("Y " + "_");
-        assertEquals(stringArrayExpected2, sortedStringArray2);
-    }
-
-//    @Test
-//    public void testRadixSortMSD() {
-//        String[] sortedStringArray2 = RadixSort.sortMSD(stringArray);
 //        for (String s : sortedStringArray2) {
 //            System.out.println(s);
 //        }
-//        assertEquals(stringArrayExpected, sortedStringArray2);
-//    }
+        assertEquals(stringArrayExpected2, sortedStringArray2);
+    }
+
+    @Test
+    public void testRadixSortMSD() {
+        String[] sortedStringArray2 = RadixSort.sortMSD(stringArray);
+        System.out.println("Original String Array:");
+        for (String s : stringArray) {
+            System.out.println(s);
+        }
+        System.out.println("Sorted String Array:");
+        for (String s : sortedStringArray2) {
+            System.out.println(s);
+        }
+        assertEquals(stringArrayExpected, sortedStringArray2);
+    }
 }
